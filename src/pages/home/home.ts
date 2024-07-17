@@ -132,7 +132,7 @@ export class HomePage {
         this.vehicle.icon = "./assets/icon/sedan.svg";
         this.vehicle.base_fare = 8.0;
         this.vehicle.minimum_price = 15.00;
-        this.vehicle.fee = 30.50;
+        this.vehicle.fee = 130.55;
         this.vehicle.active = true;
         this.vehicles.push(this.vehicle);
 
@@ -142,7 +142,7 @@ export class HomePage {
         this.vehicle.icon = "./assets/icon/luxo.svg"
         this.vehicle.base_fare = 5.0;
         this.vehicle.minimum_price = 10.00;
-        this.vehicle.fee = 20.50;
+        this.vehicle.fee = 120.50;
         this.vehicle.active = true;
         this.vehicles.push(this.vehicle);
 
@@ -152,7 +152,7 @@ export class HomePage {
         this.vehicle.icon = "./assets/icon/taxi.svg"
         this.vehicle.base_fare = 1.0;
         this.vehicle.minimum_price = 5.50;
-        this.vehicle.fee = 10.50;
+        this.vehicle.fee = 110.50;
         this.vehicle.active = true;
         this.vehicles.push(this.vehicle);
 
@@ -162,7 +162,7 @@ export class HomePage {
         this.vehicle.icon = "./assets/icon/van.svg"
         this.vehicle.base_fare = 15.0;
         this.vehicle.minimum_price = 20.00;
-        this.vehicle.fee = 50.50;
+        this.vehicle.fee = 150.56;
         this.vehicle.active = true;
         this.vehicles.push(this.vehicle);
 

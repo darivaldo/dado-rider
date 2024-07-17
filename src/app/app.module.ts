@@ -1,4 +1,4 @@
-import {ErrorHandler, NgModule} from '@angular/core';
+import {ErrorHandler, NgModule, LOCALE_ID} from '@angular/core';
 import {IonicApp, IonicModule, IonicErrorHandler} from 'ionic-angular';
 import {MyApp} from './app.component';
 import {BrowserModule} from '@angular/platform-browser';
@@ -58,6 +58,8 @@ import {PrizeService} from "../services/prize-service";
 import {SplashScreen} from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
 
+import ptBr from '@angular/common/locales/pt';
+import { registerLocaleData } from '@angular/common';
 
 export function createTranslateLoader(http: HttpClient) {
     return new TranslateHttpLoader(http, './assets/lang/', '.json');
@@ -72,6 +74,8 @@ export const firebaseConfig = {
     messagingSenderId: "699781527060"
 };
 
+
+registerLocaleData(ptBr);
 
 @NgModule({
     declarations: [
@@ -146,6 +150,7 @@ export const firebaseConfig = {
         Camera,
         File,
         {provide: ErrorHandler, useClass: IonicErrorHandler},
+        {provide: LOCALE_ID, useValue: 'pt-BR'},
         ComponentsModule,
         CepProvider,
         BankService,

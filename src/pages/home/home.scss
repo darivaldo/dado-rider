@@ -51,6 +51,34 @@ page-home,
     z-index: 999999;
   }
 
+  .request-btn{
+    box-shadow: inset 0 0 1em gold;
+    border-radius: 3%;
+    color:#fceb05 !important;
+    background-color: #dc143c !important;
+  }
+
+  .cancel-btn {
+    box-shadow: inset 0 0 1em #dc143c;
+    border-radius: 3%;
+    font-weight:bold;
+    color:#dc143c  !important;
+    background-color:#fceb05 !important;
+  }
+
+  .car-box {
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #dc143c;
+    color: #fae904;
+    box-shadow: inset 0 0 1em gold;
+    display: flow-root;
+    width: 85px !important;
+    height: 100px !important;
+    border-radius: 5px;
+    margin: auto;
+    padding-top: 10px;
+  }
   .map-overlay {
     position: absolute;
     top: 5px;

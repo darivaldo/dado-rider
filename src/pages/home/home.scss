@@ -1,13 +1,42 @@
 page-home,
+
 .home {
-  // ion-input{
-  //   margin: 0;
-  // }
+
+  .profile{
+    border-radius:10px !important;
+    color:#f7e706;
+    border-radius: 5px;
+    box-shadow: inset 0 0 1em gold; 
+    background-color: #dc143c !important;
+  }
+
+  .profile-box {
+    top:0; 
+    right: 0; 
+    padding: 4px;
+  }
+
   ion-header img{
     height: 30px;
     width: 30px;
     border-radius: 100%;
   }
+
+  .origin-destiny-box{
+    margin-top:61px;
+    margin-left:12px;
+    width:94%
+  }
+
+  .origin-input {
+    border-radius: 5%; 
+    background-color:#f3abab !important;
+  }
+  .destiny-input {
+    border-radius: 5%; 
+    background-color:#faf286 !important;
+  }
+
   .search-icon{
     font-size:20px;
   }
